@@ -1,8 +1,8 @@
 import { workExpData } from './data.js';
 
-const Projects = () => {
+const WorkExperiences = () => {
     return (
-        <div className="projects-container">
+        <div id="WorkExperience" className="projects-container">
             <h2>Work Experience</h2>
             <div className="projects-grid">
                 {workExpData && workExpData.map((workExp) => (
@@ -16,7 +16,14 @@ const Projects = () => {
                         <h4>{workExp.position}</h4>
                         <h5>{workExp.location}</h5>
                         <br/>
-                        <p>{workExp.description}</p>
+                        {workExp.description.split("\n").map((line) => {
+                            return (
+                                line==="" ?
+                                    <br/>
+                                :
+                                    <p>{line}</p>
+                            )}
+                        )}
                     </div>
                 ))
                 }
@@ -25,4 +32,4 @@ const Projects = () => {
     )
 }
 
-export default Projects;
+export default WorkExperiences;
