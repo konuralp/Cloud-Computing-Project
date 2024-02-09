@@ -34,7 +34,7 @@ export const workExpData = [{
     date: "May 2019 - September 2019  (5 months)",
     location: "Ankara, Turkey",
     description: "Created Android field investment application for electric company.\n\n\u2022 Built XML document verification desktop application which was implemented\nin department at Deloitte Turkey and saved company licensing fees for\noutsourced software.\n\u2022 Developed application to receive location data and other information from\nGNSS Device using Bluetooth.\n\u2022 Communicated with web backend using Retrofit and REST protocol.\n\u2022 Stored data and synced with backend using SQLite.\n\u2022 Designed location program / module for Android to record momentary high-\naccuracy location of any Android device.\n\u2022 Created prototype application to generate UI elements dynamically from\nJSON format in database.\n\nTechnologies Used: Java, XML, Schema Definition, Retrofit, JavaFX,\nSchematron, SQLite, Bluetooth, Location, Android Studio."
-}]
+}];
 
 export const educationData = [{
     id: 0,
@@ -46,42 +46,4 @@ export const educationData = [{
     schoolName: "TOBB University of Economics and Technology",
     date: "(2017 - 2021)",
     degree: "Bachelor of Science - BS, Computer Engineering"
-}]
-
-export const projectData = [
-    {
-        id: 1,
-        title: 'Todo List App',
-        description:
-            'A simple Todo List App built with JavaScript. All datas are stored in localstorage. It helps users check list out their plans and tick as they do them.',
-        gitHubLink: 'https://github.com/konuralp/Todo-List-App',
-    },
-    {
-        id: 2,
-        title: 'Books Library App',
-        description:
-            'A simple Book Library App built with JavaScript. It helps readers have a good list of books they are eiter currently reading or have finished reading.',
-        gitHubLink: 'https://github.com/konuralp/Book-Library',
-    },
-    {
-        id: 3,
-        title: 'Quotes Generator',
-        description:
-            'Helps you generates quotes from about 1600 quotes written by different authors . Quotes are automatically copied to your clipboards.',
-        gitHubLink: 'https://github.com/konuralp/random-quote-generator',
-    },
-    {
-        id: 4,
-        title: 'Password Generator',
-        description:
-            'Helps you generates random passwords, you can select what you want your password to entail and also you can copy generated password to clipboard.',
-        gitHubLink: 'https://github.com/konuralp/Password-Generator',
-    },
-    {
-        id: 5,
-        title: 'Twitter UI Clone',
-        description:
-            'Simple Twitter UI clone built with TailwindCSS and Vue Js. This covers only the home page of Twitter UI. This is cool to get started with TailwindCSS as it helps understand basic concepts.',
-        gitHubLink: 'https://github.com/konuralp/TwitterUI-clone',
-    },
-];
+}];
