@@ -3,6 +3,7 @@ import About from '@/components/About';
 import Skills from '@/components/Skills';
 import WorkExperiences from '@/components/WorkExperiences';
 import Contact from '@/components/Contact';
+import Blog from '@/components/Blog';
 
 import Head from 'next/head';
 import Education from "@/components/Education";
@@ -19,6 +20,7 @@ const Home = () => {
 			<div>
 				<Hero />
 				<About />
+				<Blog />
 				<Skills />
 				<WorkExperiences />
 				<Education />

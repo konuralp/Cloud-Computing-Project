@@ -234,6 +234,82 @@ hr {
   }
 }
 
+/* Blog */
+.blog-container {
+  padding: 2rem 0;
+}
+
+.blog-container h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.blog-container .flex-blog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 2rem;
+  flex-direction: row-reverse;
+}
+
+.blog-container .flex-blog .blog-text {
+  width: 50%;
+}
+
+.flex-blog {
+  margin-top: 16px;
+}
+
+.link-wrapper {
+  display: contents;
+}
+
+.blog-container .flex-blog .blog-text p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.blog-container .flex-blog .blog-img {
+  width: 50%;
+}
+
+.blog-img{
+  object-fit: cover;
+  width: 50%;
+}
+
+.blog-container .flex-blog .blog-img .profile-img {
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border: 2px solid #DADADB;
+  filter: grayscale(100%);
+  transition: all 0.5s ease-in-out;
+  cursor: cell;
+}
+
+.blog-container .flex-blog .blog-img .profile-img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.02);
+}
+
+@media screen and (max-width: 768px) {
+  .blog-container .flex-blog {
+    flex-direction: column;
+  }
+
+  .blog-container .flex-blog .blog-text {
+    width: 100%;
+  }
+
+  .blog-container .flex-blog .blog-img {
+    width: 100%;
+  }
+}
+
 /* Skills */
 .skills-container {
   padding: 2rem 0;
